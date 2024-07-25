@@ -19,7 +19,7 @@ RUN \
   apt-get update && \
   if [ -z ${RUSTDESK_VERSION+x} ]; then \
     RUSTDESK_VERSION=$(curl -sX GET "https://api.github.com/repos/rustdesk/rustdesk/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]' | sed 's|^Audacity-||'); \
+      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   curl -o \
     /tmp/rustdesk.deb -L \
