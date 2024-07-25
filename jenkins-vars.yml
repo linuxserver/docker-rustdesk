@@ -1,0 +1,30 @@
+---
+
+# jenkins variables
+project_name: docker-rustdesk
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: master
+build_armhf: false
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'rustdesk'
+  - EXT_REPO = 'rustdesk'
+  - BUILD_VERSION_ARG = 'RUSTDESK_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-rustdesk'
+  - CONTAINER_NAME = 'rustdesk'
+  - DOCKERHUB_IMAGE = 'linuxserver/rustdesk'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/rustdesk'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/rustdesk'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH = 'true'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3000'
+  - CI_SSL = 'false'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''
