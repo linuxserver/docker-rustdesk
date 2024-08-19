@@ -1232,7 +1232,7 @@ read-package-json-fast                                                        3.
 readline-common                                                               8.2-1.3                                 deb                         
 resenje.org/singleflight                                                      v0.4.1                                  go-module                   
 retry                                                                         0.12.0                                  npm                         
-rustdesk                                                                      1.2.7                                   deb                         
+rustdesk                                                                      1.3.0                                   deb                         
 safe-buffer                                                                   5.2.1                                   npm                         
 safer-buffer                                                                  2.1.2                                   npm        (+1 duplicate)   
 sed                                                                           4.9-1                                   deb                         
