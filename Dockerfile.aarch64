@@ -27,6 +27,7 @@ RUN \
   apt-get install -y --no-install-recommends \
     /tmp/rustdesk.deb && \
   echo "**** cleanup ****" && \
+  apt-get install -y xdg-user-dirs && \
   apt-get autoclean && \
   rm -rf \
     /root/.cache \
