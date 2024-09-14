@@ -26,8 +26,8 @@ RUN \
     "https://github.com/rustdesk/rustdesk/releases/download/${RUSTDESK_VERSION}/rustdesk-${RUSTDESK_VERSION}-$(uname -m).deb" && \
   apt-get install -y --no-install-recommends \
     /tmp/rustdesk.deb && \
-  echo "**** cleanup ****" && \
   apt-get install -y xdg-user-dirs && \
+  echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
     /root/.cache \
