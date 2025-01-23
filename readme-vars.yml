@@ -6,6 +6,7 @@ project_url: "https://rustdesk.com/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rustdesk-logo.png"
 project_blurb: "[RustDesk]({{ project_url }}) is a full-featured open source remote control alternative for self-hosting and security with minimal configuration."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Remote Desktop"
 project_categories: "Web"
 project_blurb_optional_extras_enabled: false
 # supported architectures
