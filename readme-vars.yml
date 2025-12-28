@@ -107,6 +107,7 @@ init_diagram: |
   "rustdesk:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "22.09.25:", desc: "Rebase to Debian Trixie."}
   - {date: "12.07.25:", desc: "Rebase to Selkies, HTTPS IS NOW REQUIRED."}
   - {date: "25.07.24:", desc: "Initial release."}
