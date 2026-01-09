@@ -1027,7 +1027,7 @@ python3.13-venv                                                               3.
 readline-common                                                               8.2-6                                   deb                         
 resenje.org/singleflight                                                      v0.4.3                                  go-module                   
 rpcsvc-proto                                                                  1.4.3-1                                 deb                         
-rustdesk                                                                      1.4.4                                   deb                         
+rustdesk                                                                      1.4.5                                   deb                         
 seatd                                                                         0.9.1-1                                 deb                         
 sed                                                                           4.9-2                                   deb                         
 selkies                                                                       0.0.0                                   python                      
