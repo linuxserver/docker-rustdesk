@@ -37,7 +37,6 @@ app_setup_block: |
   * https://yourhost:3001/
 
   **Note: This is the Desktop application in a web accessible format! This container is for running the client in a sandbox so it does not have access to your system. It is not a server solution!**
-
 # init diagram
 init_diagram: |
   "rustdesk:latest": {
