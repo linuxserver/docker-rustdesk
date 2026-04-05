@@ -10,7 +10,10 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE="RustDesk"
+ENV TITLE="RustDesk" \
+    NO_GAMEPAD=true \
+    NO_FULL=true \
+    PIXELFLUX_WAYLAND=true
 
 RUN \
   echo "**** add icon ****" && \
